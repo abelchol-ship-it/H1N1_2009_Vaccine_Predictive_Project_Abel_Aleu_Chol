@@ -11,9 +11,11 @@ This project predicts H1N1 vaccine uptake using machine learning.
 Using data from the **National 2009 H1N1 Flu Survey (NHFS)**, this project develops a **binary classification framework** to predict whether an individual will receive the H1N1 vaccine. By identifying key behavioral, demographic, and attitudinal drivers, this analysis provides actionable insights for public health preparedness.
 
 > **Note:** If GitHub fails to render the notebook below, please use the link below to view the full 86-cell analysis:
-> 
-> [**View Notebook on NBViewer (Recommended)**](https://nbviewer.org/github/abelchol-ship-it/H1N1_2009_Vaccine_Predictive_Project_Abel_Aleu_Chol/blob/main/phase3_h1n1_vaccine_prediction_Abel_Aleu_Chol.ipynb)
 
+### View the Full Analysis
+Note: If GitHub fails to render the notebook below, please use the link below to view the full 86-cell analysis:
+
+[View Notebook on NBViewer (Recommended)](https://nbviewer.org/github/abelchol-ship-it/H1N1_2009_Vaccine_Predictive_Project_Abel_Aleu_Chol/blob/main/phase3_h1n1_vaccine_prediction_Abel_Aleu_Chol.ipynb)
 
 ## Tableau Dashboard
 **Interactive Visual Insights**  
