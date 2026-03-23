@@ -1,17 +1,33 @@
 # Targeting Trust: Predicting H1N1 Vaccination Drivers
 
-**Author:** Abel Aleu Chol Garang  
-**Course:** Data Science  
-**Date:** March 2026  
+**By Abel Aleu Chol Garang | Data Scientist**
+
+## Introduction
+This project aims to predict whether individuals received the H1N1 flu vaccine based on demographic and behavioral data from the **National 2009 H1N1 Flu Survey (NHFS)**. By identifying key behavioral, demographic, and attitudinal drivers, this analysis provides actionable insights for public health preparedness and more effective vaccination campaigns.
+
+## Vaccination Decision Logic
+The decision tree below illustrates the primary logic our classification framework uses to predict vaccination status. It highlights how specific features like doctor recommendations and personal risk perception drive the final outcome.
+
+![Decision Model logic](Images/decision_model.png)
+
+
+## Key Findings
+* **Doctor Recommendation:** Having a doctor recommend the vaccine was the strongest predictor of uptake across all models.
+* **Risk Perception:** Individuals who perceived a higher personal risk of contracting H1N1 were significantly more likely to be vaccinated.
+* **Knowledge & Opinions:** A high perception of vaccine effectiveness and general H1N1 knowledge correlated strongly with successful vaccination.
 
 
 ## Project Overview
-This project predicts H1N1 vaccine uptake using machine learning.
+This project develops a **binary classification framework** to predict H1N1 vaccine uptake. 
 
-Using data from the **National 2009 H1N1 Flu Survey (NHFS)**, this project develops a **binary classification framework** to predict whether an individual will receive the H1N1 vaccine. By identifying key behavioral, demographic, and attitudinal drivers, this analysis provides actionable insights for public health preparedness.
+Using data from the **National 2009 H1N1 Flu Survey (NHFS)**, the analysis focuses on:
+* **Feature Engineering:** Identifying the most influential drivers of trust and action.
+* **Model Selection:** Utilizing machine learning to provide a predictive map of vaccine recipients.
+* **Public Health Impact:** Offering a data-driven approach to help health departments target their outreach efforts where they will be most effective.
+
 
 > **Note:** If GitHub `fails` to render the notebook below, please use the link below to view the full 86-cell analysis: 
-### Here is the link
+### Use this link inscase the gitHub fails to render the notebook
 
 [View Notebook on NBViewer (Recommended)](https://nbviewer.org/github/abelchol-ship-it/H1N1_2009_Vaccine_Predictive_Project_Abel_Aleu_Chol/blob/main/phase3_h1n1_vaccine_prediction_Abel_Aleu_Chol.ipynb)
 
@@ -47,9 +63,10 @@ Explore the deep-dive Exploratory Data Analysis (EDA) and psychological drivers 
 
 
 ## Repository Structure
-- `phase3_h1n1_vaccine_prediction.ipynb` — Main analysis and modeling notebook  
-- `data/` — Contains `training_set_features.csv` and `training_set_labels.csv`  
-- `README.md` — Project documentation and executive summary  
+* `Images/`: Visualizations, including the Decision Tree and ROC curves.
+* `PPTX_CSV_Files/`: Technical presentations and supporting data files.
+* `H1N1_vaccine_prediction_Presentation_Abel_Aleu_Chol.pdf`: PDF showing not technical presentation.
+* `phase3_h1n1_vaccine_prediction_Abel_Aleu_Chol.ipynb`: The primary Jupyter Notebook containing all cleaning, modeling, and evaluation.
 
 
 ## Ethical Note
